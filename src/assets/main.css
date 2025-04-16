@@ -1,0 +1,66 @@
+@import './base.css';
+.color-primary{
+  color: #34495E;
+}
+.btn-main{
+  background-color: #34495E;
+  padding: 0.4rem 1.6rem;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-main:hover{
+  background-color: #243241;
+}
+.btn-action {
+  background-color: #40b883;
+  padding: 0.4rem 1.6rem;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-action:hover{
+  background-color: #33956b;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+body {
+  background-color: #afc4da;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+main {
+  width: 600px;
+  padding: 20px;
+  background: #f0f0f0;
+}
+input {
+  width: 90%;
+  padding: 0.6rem 1.2rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #ededed;
+  margin: 20px;
+}
+.group-card {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+.card-item {
+  border-radius: 10px;
+  background: #324558;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+}
+.card-item:hover {
+  background-color: #243241;
+}
